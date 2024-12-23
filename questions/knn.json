@@ -188,7 +188,7 @@
       "Low complexity for both training and inference",
       "High complexity for both training and inference",
       "Low training complexity, high inference complexity",
-      "High training complexity, low inference complexity",
+      "High training complexity, low inference complexity"
     ],
     "correct": 2,
     "explanation": "KNN has low training complexity as no model is trained, but high inference complexity due to the distance computations required for each test point.",
