@@ -24,7 +24,7 @@
   "correct": [1],
   "explanation": "KNN is more likely to overfit when K is very small because the model becomes too sensitive to individual data points, capturing noise instead of the general pattern.",
   "level": "basic"
-}
+},
   {
     "id": 3,
     "question": "KNN is a type of which machine learning paradigm?",
