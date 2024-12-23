@@ -123,7 +123,7 @@
       "To adjust the decision boundary so that it need not be horizontal or vertical",
       "To adjust the decision boundary so that it can be nonlinear",
       "To adjust the decision boundary so that it need not pass through the origin", 
-      "To penalize overfitting",
+      "To penalize overfitting"
     ],
     "correct": [2],
   "explanation": "The bias term in Logistic Regression allows the decision boundary to shift so that it does not need to pass through the origin, providing flexibility in positioning the boundary for better fit to the data. It does not affect the linearity of the decision boundary or penalize overfitting.",
@@ -206,8 +206,7 @@
     "correct": [0, 1, 2],
     "explanation": "Logistic Regression predicts probabilities using the sigmoid function and is used for classification, unlike Linear Regression.",
     "level": "basic"
-  }
-]
+  },
 {
     "id": 17,
     "question": "What methods can be used to train a logistic regression model? (Circle all that apply.)",
