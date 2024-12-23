@@ -85,24 +85,24 @@
     const file = urlParams.get('file');
     const level = urlParams.get('level');
 const quizTitleMap = {
-    'questions/intro_ml.json': 'Introduction to Machine Learning',
-    'questions/knn.json': 'KNN',
-    'questions/decisiontree.json': 'Decision Tree',
-    'questions/dnn_cv.json': 'DNN Cross Validation',
-    'questions/dnn_intro.json': 'Introduction to DNN',
-    'questions/dnn_nlp.json': 'DNN for NLP',
-    'questions/dual_kernels.json': 'Dual Kernels',
-    'questions/embeddings.json': 'Embeddings',
-    'questions/ensemble.json': 'Ensemble Methods',
-    'questions/expect_max.json': 'Expectation Maximization',
-    'questions/generalization.json': 'Generalization in ML',
-    'questions/graphical_models.json': 'Graphical Models',
-    'questions/linearreg.json': 'Linear Regression',
-    'questions/logreg.json': 'Logistic Regression',
-    'questions/misc.json': 'Miscellaneous Topics',
-    'questions/optimization.json': 'Optimization Techniques',
-    'questions/stat_decision_theory.json': 'Statistical Decision Theory',
-    'questions/svm.json': 'Support Vector Machines'
+    './questions/intro_ml.json': 'Introduction to Machine Learning',
+    './questions/knn.json': 'KNN',
+    './questions/decisiontree.json': 'Decision Tree',
+    './questions/dnn_cv.json': 'DNN Cross Validation',
+    './questions/dnn_intro.json': 'Introduction to DNN',
+    './questions/dnn_nlp.json': 'DNN for NLP',
+    './questions/dual_kernels.json': 'Dual Kernels',
+    './questions/embeddings.json': 'Embeddings',
+    './questions/ensemble.json': 'Ensemble Methods',
+    './questions/expect_max.json': 'Expectation Maximization',
+    './questions/generalization.json': 'Generalization in ML',
+    './questions/graphical_models.json': 'Graphical Models',
+    './questions/linearreg.json': 'Linear Regression',
+    './questions/logreg.json': 'Logistic Regression',
+    './questions/misc.json': 'Miscellaneous Topics',
+    './questions/optimization.json': 'Optimization Techniques',
+    './questions/stat_decision_theory.json': 'Statistical Decision Theory',
+    './questions/svm.json': 'Support Vector Machines'
 };
 
     // Update the quiz title
@@ -178,7 +178,7 @@ const quizTitleMap = {
     });
 
     document.getElementById('back-to-toc').addEventListener('click', () => {
-      window.location.href = 'index.html';
+      window.location.href = './index.html';
     });
   </script>
 </body>
