@@ -186,7 +186,7 @@
     "question": "What is a primary characteristic of KNN regarding training and inference complexity?",
     "options": [
       "Low complexity for both training and inference",
-      "High complexity for both training and inference"
+      "High complexity for both training and inference",
       "Low training complexity, high inference complexity",
       "High training complexity, low inference complexity",
     ],
